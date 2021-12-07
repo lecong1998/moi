@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="120dp"
+    android:orientation="vertical"
+    android:layout_marginLeft="3dp"
+    android:layout_marginBottom="10dp"
+    android:layout_height="150dp">
+    <ImageView
+        android:padding="5dp"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:id="@+id/image_popular"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Tên phim"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:id="@+id/txt_film"/>
+</LinearLayout>

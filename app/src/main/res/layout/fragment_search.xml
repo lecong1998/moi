@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/purple_200"
+    android:gravity="center"
+    tools:context=".ui.timkiem.SearchFragment_Forum">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tablayout_search"
+                android:layout_width="match_parent"
+                app:tabSelectedTextColor="#2196F3"
+                app:tabTextColor="@color/teal_200"
+                android:layout_height="50dp"
+                android:background="#CC000000"
+                android:visibility="visible"
+                app:tabMode="scrollable"
+                app:tabInlineLabel="true"
+                app:tabGravity="start"
+                />
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewpager_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</LinearLayout>

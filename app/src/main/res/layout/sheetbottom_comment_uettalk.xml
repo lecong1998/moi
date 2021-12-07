@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/nen_comment_background"
+    android:minHeight="200dp"
+    android:layout_gravity="bottom"
+    android:id="@+id/bottomsheet_uettalk"
+    android:layout_height="500dp">
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/linearlayout_uettalk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/comment_scrollview"
+            android:layout_alignBottom="@id/linearlayout_uettalk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txt_comment_chuacobinhluan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="18sp" />
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/comment_recyclerview_uettalk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/comment_progressbar"
+                    android:visibility="visible"/>
+            </FrameLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/linearlayout_uettalk"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true">
+        <ImageButton
+            android:paddingLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_menu_camera"
+            android:background="@color/white"
+            android:id="@+id/comment_uet_camera"/>
+
+        <EditText
+            android:id="@+id/edt_comment_uettalk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/vien_tron_nen_trang"
+            android:focusedByDefault="false"
+            android:hint="bình luận"
+            android:paddingLeft="20dp"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/btn_update_comment_uettalk"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/white"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/ic_baseline_send_24" />
+    </LinearLayout>
+</RelativeLayout>

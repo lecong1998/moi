@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:src="@drawable/unnamed" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="REGISTER"
+                android:textAlignment="center"
+                android:textColor="#1368AC"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/register_fragment_edt_username"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/vienxanh"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:ems="10"
+                android:hint="Mã Số Sinh Viên"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/register_fragment_edt_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/vienxanh"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:ems="10"
+                android:hint="Mật Khẩu"
+                android:inputType="textPassword"
+                />
+
+            <EditText
+                android:id="@+id/register_fragment_edt_confirmpass"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/vienxanh"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:ems="10"
+                android:hint="Nhập lại Mật khẩu"
+                android:inputType="textPassword" />
+
+
+            <Button
+                android:id="@+id/register_fragment_btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="40dp"
+                android:background="#1368AC"
+                android:text="Register"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:id="@+id/register_fragment_btn_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:background="#1368AC"
+                android:text="Cancel"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+
+</FrameLayout>

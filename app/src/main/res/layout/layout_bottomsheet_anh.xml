@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomsheet_anh"
+    android:layout_width="230dp"
+    android:layout_height="wrap_content"
+    android:paddingTop="50dp"
+    android:paddingBottom="50dp"
+    android:layout_marginBottom="50dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_marginRight="30dp"
+        android:id="@+id/anh_camera"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:src="@drawable/ic_camera"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/anh_thumuc"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="Thư mục"
+        android:src="@drawable/ic_baseline_folder_24"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+</LinearLayout>

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.diendan.detailForum.DetailForumFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_above="@id/linear_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/image_detail_forum"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:padding="3dp"
+                            android:src="@drawable/_60279747_1127526494354946_6683273208343303265_n" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/txt_name_detail_forum"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="5dp"
+                                android:paddingRight="10dp"
+                                android:text="Lê Công"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:id="@+id/time_detail_forum"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingLeft="10dp"
+                                    android:paddingTop="5dp"
+                                    android:text="thời giam đăng" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingLeft="10dp"
+                                    android:paddingTop="5dp"
+                                    android:text="ngày đăng"
+                                    android:id="@+id/date_detail_forum"/>
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtcontent_forum"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:text="Nội dung Bài viết"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/detail_listanh"/>
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:textAlignment="center"
+                        android:layout_alignParentLeft="true"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/soluotlike_detail"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:textAlignment="center"
+                        android:layout_alignParentRight="true"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/soluotbinhluan_detail"
+                        android:layout_weight="1"
+                        android:layout_gravity="right"
+                        tools:ignore="RtlCompat" />
+                </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+                    <Button
+                        android:paddingLeft="30dp"
+                        android:paddingRight="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:drawableLeft="@drawable/ic_baseline_favorite_border_24"
+                        android:background="@color/white"
+                        android:text="Thích"
+                        android:textColor="@color/black"
+                        android:id="@+id/btn_like_detail"/>
+                    <Button
+                        android:paddingLeft="30dp"
+                        android:paddingRight="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Bình Luận"
+                        android:background="@color/white"
+                        android:drawableLeft="@drawable/ic_baseline_comment_24"
+                        android:id="@+id/btn_comment_detail"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/black"/>
+
+                <FrameLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_marginBottom="65dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="10dp"
+                                android:text="Bình Luận"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@color/teal_700"/>
+                        </LinearLayout>
+                        <androidx.core.widget.NestedScrollView
+                            android:id="@+id/detail_scrollview"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:id="@+id/chuacocomment"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:textAlignment="center"
+                                    android:textSize="18sp" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <androidx.recyclerview.widget.RecyclerView
+                                        android:id="@+id/detail_comment_forum_recyclerview"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content" />
+                                </LinearLayout>
+                                <ProgressBar
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:visibility="visible"
+                                    android:layout_gravity="center"
+                                    android:id="@+id/detailforum_progressbar"/>
+
+                            </FrameLayout>
+                        </androidx.core.widget.NestedScrollView>
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+
+        </FrameLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:id="@+id/linear_detail"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_menu_camera"
+            android:background="@color/white"
+            android:id="@+id/camera_comment"/>
+
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:id="@+id/edt_detail_forum"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_weight="8"
+            android:background="@drawable/vien_tron_nen_trang"
+            android:defaultFocusHighlightEnabled="false"
+            android:hint="Bình luận" >
+        </EditText>
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/btndang_detail_forum"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="2"
+            android:src="@drawable/ic_baseline_send_24" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/vienvuong"
+    android:layout_width="200dp"
+    android:layout_marginRight="5dp"
+    android:layout_height="200dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/_60279747_1127526494354946_6683273208343303265_n"
+        android:scaleType="fitXY"
+        android:id="@+id/item_anh"/>
+    <ImageButton
+        android:id="@+id/delete_anh"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:src="@drawable/ic_baseline_cancel_24"
+        android:background="#00000000"/>
+
+</FrameLayout>

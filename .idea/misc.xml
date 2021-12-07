@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/drawable/ic_search_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/drawable/like_select.xml" value="0.1125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/drawable/nen_comment_background.xml" value="1.0535714285714286" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/drawable/vien.xml" value="0.2203125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/drawable/vien_button.xml" value="1.0464285714285715" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/drawable/vien_tron_nen_trang.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/drawable/vienvuong.xml" value="0.2203125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/drawable/vienvuongtrang.xml" value="0.12135416666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/drawable/vienxanh.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/activity_detail_document_exam.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/activity_notifications.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/activity_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/activity_signin.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/activity_start_app.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/activity_thuapi.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/anh_detail.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/app_bar_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/content_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/dialog_listtailieudethi.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/fragment_c_n_t_t.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/fragment_c_n_t_t2.xml" value="0.125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/fragment_co__k_t.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/fragment_co__k_t2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/fragment_d_t_v_t.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/fragment_d_t_v_t2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/fragment_detail_forum.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/fragment_detail_write.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/fragment_documents.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/fragment_exam.xml" value="0.2109375" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/fragment_exams.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/fragment_forum.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/fragment_gallery.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/fragment_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/fragment_logout.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/fragment_news.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/fragment_notifications.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/fragment_ro_bot.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/fragment_ro_bot2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/fragment_search.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/fragment_search2.xml" value="0.15260416666666668" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/fragment_search3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/fragment_uettalk.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/fragment_write.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/fragment_writing_status.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/item_anh_write.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/item_chude.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/item_document.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/item_forum.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/item_news.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/item_notification.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/item_search.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/item_uettalk.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/itemcoment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/itemdatasubject.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/layout_bottomsheet.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/layout_bottomsheet_anh.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/nav_header_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/network_security_config.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/popular_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/searchdialog_fullscreen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/sheetbottom_comment_uettalk.xml" value="0.13802083333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/layout/toolbar.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/menu/activity_main_drawer.xml" value="0.18" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/UETStudents2/app/src/main/res/menu/main.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

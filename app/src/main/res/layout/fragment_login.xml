@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.login.Login.LoginFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/white"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:src="@drawable/unnamed" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="SIGN IN"
+            android:textAlignment="center"
+            android:textColor="#1368AC"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/login_fragment_edt_username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/vienxanh"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:drawableRight="@drawable/ic_baseline_person_pin_24"
+            android:hint="Mã Số Sinh viên"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/login_fragment_edt_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="30dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/vienxanh"
+            android:ems="10"
+            android:hint="Mật khẩu"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/login_fragment_btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="68dp"
+            android:layout_marginRight="40dp"
+            android:background="#1368AC"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/login_fragment_btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:background="#1368AC"
+            android:text="Register"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">UET Students</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">UET STUDENTS</string>
+    <string name="nav_header_subtitle">Trường Đại Học Công Nghệ</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Trang chủ</string>
+    <string name="menu_tailieu">Tài liệu</string>
+    <string name="menu_dethi">Đề thi</string>
+    <string name="menu_thongbao">Thông báo</string>
+    <string name="menu_bantin">Bản tin</string>
+    <string name="menu_diendan">Diễn Đàn</string>
+    <string name="menu_uettalk">UET Talk</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="api_key">k_88acdw9f</string>
+    <string name="line">  <strike>  </strike> </string>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_baseline_notifications_24"
+            android:title="@string/menu_thongbao" />
+        <item
+            android:id="@+id/nav_document"
+            android:icon="@drawable/ic_baseline_folder_24"
+            android:title="@string/menu_tailieu" />
+        <item
+            android:id="@+id/nav_exam"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="@string/menu_dethi" />
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_baseline_desktop_windows_24"
+            android:title="@string/menu_bantin" />
+        <item
+            android:id="@+id/nav_forum"
+            android:icon="@drawable/ic_baseline_forum_24"
+            android:title="@string/menu_diendan" />
+        <item
+            android:id="@+id/nav_uettalk"
+            android:icon="@drawable/ic_baseline_folder_shared_24"
+            android:title="@string/menu_uettalk" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_baseline_login_24"
+            android:title="Đăng Xuất" />
+    </group>
+</menu>

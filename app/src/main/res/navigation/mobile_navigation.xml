@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_forum">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ie.app.uetstudents.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_notifications"
+        android:name="ie.app.uetstudents.ui.thongbao.NotificationsFragment"
+        android:label="@string/menu_thongbao"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/nav_document"
+        android:name="ie.app.uetstudents.ui.tailieu.DocumentFragment"
+        android:label="@string/menu_tailieu"
+        tools:layout="@layout/fragment_documents" />
+    <fragment
+        android:id="@+id/nav_exam"
+        android:name="ie.app.uetstudents.ui.dethi.ExamFragment"
+        android:label="@string/menu_dethi"
+        tools:layout="@layout/fragment_exam" />
+    <fragment
+        android:id="@+id/nav_news"
+        android:name="ie.app.uetstudents.ui.bantin.NewsFragment"
+        android:label="@string/menu_bantin"
+        tools:layout="@layout/fragment_news">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_forum"
+        android:name="ie.app.uetstudents.ui.diendan.forum_main.ForumFragment"
+        android:label="@string/menu_diendan"
+        tools:layout="@layout/fragment_forum" >
+        <action android:id="@+id/forumFragment_to_writeFragment"
+            app:destination="@id/write_fragment"/>
+        <action
+            android:id="@+id/action_nav_forum_to_detailForumFragment"
+            app:destination="@id/detailForumFragment" />
+
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_uettalk"
+        android:name="ie.app.uetstudents.ui.uettalk.UETTalkFragment"
+        android:label="@string/menu_uettalk"
+        tools:layout="@layout/fragment_uettalk" >
+        <action
+            android:id="@+id/action_nav_uettalk_to_writingStatusFragment"
+            app:destination="@id/writingStatusFragment" />
+        <action
+            android:id="@+id/action_nav_uettalk_to_detailForumFragment"
+            app:destination="@id/detailForumFragment" />
+    </fragment>
+    <fragment android:id="@+id/write_fragment"
+        android:name="ie.app.uetstudents.ui.diendan.Write.WriteFragment"
+        android:label="Đăng Bài"
+        tools:layout="@layout/fragment_write">
+        <action android:id="@+id/writeFragment_to_forumFragment"
+            app:destination="@id/nav_forum"/>
+    </fragment>
+    <activity
+        android:id="@+id/nav_login"
+        android:name="ie.app.uetstudents.ui.login.SigninActivity"
+        android:label="activity_signin"
+        tools:layout="@layout/activity_signin" />
+    <fragment
+        android:id="@+id/detailForumFragment"
+        android:name="ie.app.uetstudents.ui.diendan.detailForum.DetailForumFragment"
+        android:label="Bài Viết"
+        tools:layout="@layout/fragment_detail_forum" />
+    <fragment
+        android:id="@+id/writingStatusFragment"
+        android:name="ie.app.uetstudents.ui.uettalk.WritingStatusFragment"
+        android:label="Tạo Bài Viết"
+        tools:layout="@layout/fragment_writing_status" >
+        <action
+            android:id="@+id/action_writingStatusFragment_to_nav_uettalk"
+            app:destination="@id/nav_uettalk" />
+    </fragment>
+    <fragment
+        android:id="@+id/action_notification"
+        android:name="ie.app.uetstudents.ui.notifications.notifications_Fragment"
+        android:label="Thông Báo" >
+        <action
+            android:id="@+id/action_action_notification_to_detailForumFragment"
+            app:destination="@id/detailForumFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/action_search"
+        android:name="ie.app.uetstudents.ui.timkiem.Search_Fragment"
+        android:label="Tìm Kiếm" >
+        <action
+            android:id="@+id/action_search_Fragment_to_detailForumFragment"
+            app:destination="@id/detailForumFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/action_profile"
+        android:name="ie.app.uetstudents.ui.profile.Profile_Fragment"
+        android:label="Trang cá nhân" />
+
+
+</navigation>
